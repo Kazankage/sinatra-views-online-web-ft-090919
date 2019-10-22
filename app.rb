@@ -5,11 +5,11 @@ class App < Sinatra::Base
   get '/' do
     "<h1>Hello World</h1>"
 end
-    get '/' do
+    get '/index.erb' do
       erb :index
     end
  
-    get "/info" do
+    get "/info.erb" do
       erb :info
     end
     
